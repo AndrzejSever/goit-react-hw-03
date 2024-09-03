@@ -1,6 +1,6 @@
 import { Formik, Form, Field,ErrorMessage  } from "formik";
 import * as Yup from "yup";
-import css from "./Contact.module.css";
+import css from "./ContactForm.module.css";
 
 const SignupSchema = Yup.object().shape({
  name: Yup.string().min(3, "Too Short!").max(50, "Too Long!").required("Required"),
