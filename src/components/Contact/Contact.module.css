@@ -1,0 +1,30 @@
+ul{
+   display: flex;
+flex-wrap: wrap;
+
+   li{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    width: 220px;
+  
+    p{
+        font-size: 16px;
+        display: flex;
+        margin-right: 10px;
+    }
+
+    button{
+        display: flex;
+        align-items: center;
+        height: 50%;
+        margin: 0 auto;
+        margin-right: 10px;
+        width:min-content
+    }
+   }
+}
