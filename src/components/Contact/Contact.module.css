@@ -1,8 +1,6 @@
-ul{
-   display: flex;
-flex-wrap: wrap;
 
-   li{
+
+   .listBox{
     border: 2px solid black;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -27,4 +25,3 @@ flex-wrap: wrap;
         width:min-content
     }
    }
-}

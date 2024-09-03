@@ -2,7 +2,7 @@ import css from "./Contact.module.css";
 
 export default function Contact({ item: { id, name, number }, onDelete }) {
  return (
-  <li>
+  <li className={css.listBox}>
    <h2>
     <p>{name}</p>
     <p>{number}</p>
